@@ -1,4 +1,12 @@
-.web {
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.web-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -10,20 +18,13 @@ span {
   color: #0d99ff;
 }
 
-header {
-  font-family: "Roboto", sans-serif;
-}
-
-main {
-  font-family: "Roboto", sans-serif;
-}
 footer {
   font-family: "Roboto", sans-serif;
   background-color: #2f303a;
   color: white;
 }
 
-.menu {
+.web-menu-agency {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -32,12 +33,40 @@ footer {
   text-decoration: none;
 }
 
-.menu:hover {
+.web-menu-agency:hover {
   color: #2196f3;
   cursor: pointer;
 }
 
-.mail {
+.web-menu-portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.web-menu-portfolio:hover {
+  color: #2196f3;
+  cursor: pointer;
+}
+
+.web-menu-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.web-menu-contact:hover {
+  color: #2196f3;
+  cursor: pointer;
+}
+
+.web-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -45,11 +74,11 @@ footer {
   color: #757575;
 }
 
-.mail:hover {
+.web-mail:hover {
   color: #2196f3;
 }
 
-.tel {
+.web-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -57,11 +86,11 @@ footer {
   color: #757575;
 }
 
-.tel:hover {
+.web-tel:hover {
   color: #2196f3;
 }
 
-.city {
+.web-city {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -69,36 +98,37 @@ footer {
   color: #ffffff;
 }
 
-.mail2 {
+.web-mail2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.mail2:hover {
+.web-mail2:hover {
   color: #2196f3;
 }
 
-.tel2 {
+.web-tel2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.tel2:hover {
+.web-tel2:hover {
   color: #2196f3;
 }
 
-.effective {
+.effective-banner {
   background-color: #2f303a;
   text-align: center;
   text-transform: uppercase;
   color: white;
+  font-size: 44px;
 }
 
-.serv {
+.service-button {
   color: white;
   background: #2196f3;
   font-size: 16px;
@@ -107,13 +137,13 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.serv:hover {
+.service-button:hover {
   background: white;
   color: #2196f3;
   cursor: pointer;
 }
 
-.lorem {
+.lorem-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -122,7 +152,7 @@ footer {
   color: #212121;
 }
 
-.ipsum {
+.ipsum-description {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -130,7 +160,12 @@ footer {
   color: #757575;
 }
 
-.what {
+.menu-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.what-we-do {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -139,7 +174,7 @@ footer {
   color: #212121;
 }
 
-.names {
+.team-names {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -148,7 +183,7 @@ footer {
   text-align: center;
 }
 
-.work {
+.team-work {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -188,7 +223,7 @@ button:hover {
   cursor: pointer;
 }
 
-.name {
+.name-img {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -196,7 +231,7 @@ button:hover {
   color: #212121;
 }
 
-.dis {
+.description-img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
